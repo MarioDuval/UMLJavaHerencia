@@ -2,12 +2,12 @@ package newsales;
 
 public class Sale {
     private String id;
-    private String desc;
+    private String description;
     private Payment payment;
 
-    public Sale(String id, String desc){
+    public Sale(String id, String description){
         this.id = id;
-        this.desc = desc;
+        this.description = description;
     }
 
     public void setPayment(Payment pay){
